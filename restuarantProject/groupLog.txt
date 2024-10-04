@@ -3,6 +3,10 @@
  -Entire group works on finding idea for project.
  
  10/3/24
- Jalen looked for html elements and Css styling properties
+ -Jalen finishes creating html elements and Css styling properties.
  -Terrance and Muhammed worked on finding items.
- -loyd worked on the group pitch
+ -Loyd worked on the group pitch.
+ 
+ 10/4/24
+ -Jalen, Muhammed and Terrance finished the menu.
+ -Loyd finished the group pitch.
