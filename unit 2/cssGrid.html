@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Css Grid Activity</title>
+    <style>
+        .rulesForGrid {
+            background-color: blue;
+            width: 100px;
+            margin: 10px;
+            height: 100px;
+            padding: 10px
+        }
+
+        .oppositeClass {
+            background-color: red;
+            width: 100px;
+            margin: 10px;
+            height: 100px;
+            padding: 10px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+
+<body class="grid-container">
+    <div class="rulesForGrid">1</div>
+    <div class="oppositeClass">2</div>
+    <div class="rulesForGrid">3</div>
+    <div class="oppositeClass">4</div>
+    <div>5</div>
+    <div >6</div>
+
+
+</body>
+
+</html>
