@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Css Grid Activity</title>
+    <style>
+     .grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+
+
+        .item1 {
+            grid-area: header;
+        
+        }
+
+        .item2 {
+            grid-area: menu;
+        }
+
+        .item3 {
+            grid-area: main;
+        }
+
+        .item4 {
+            grid-area: right;
+        }
+
+        .item5 {
+            grid-area: footer;
+        }
+
+        .grid-container> div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+            display: grid;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="item1">Nav</div>
+        <div class="item2">Main Content</div>
+        <div class="item3">Advertisement</div>
+        <div class="item4">Option 1</div>
+        <div class="item5">Option 2</div>
+        <div class="item6">Option 3 </div>
+
+
+    </div>
+</body>
+
+</html>
