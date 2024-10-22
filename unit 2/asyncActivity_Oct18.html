@@ -9,9 +9,9 @@
             grid-template-columns: auto auto auto;
             background-color: #2196F3;
             padding: 10px;
-           
+
             text-align: center;
-            
+
             font-size: 30px;
         }
 
@@ -24,14 +24,30 @@
             text-align: center;
             margin: 10px;
         }
+
+        #navSpecific {
+            width: 1200px
+        }
+
+        .nav {
+            display: grid;
+            grid-template-columns: auto;
+        }
+
+        .bodyMain {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
     </style>
 </head>
 
-<body>
+
     <div class="grid-container">
-        <div class="grid-item">Nav</div>
-        <div class="grid-item">Main Content</div>
-        <div class="grid-item">Advertisement</div>
+        <div class="nav">
+            <div class="grid-item" id="navSpecific">1</div>
+        </div>
+        <div class="bodyMain"> <div class="grid-item" id="navSpecific"></div></div>
+
         <div style="height: 200px;" class="grid-item">Option 1</div>
         <div class="grid-item">Option 2</div>
         <div class="grid-item">Option 3 </div>
