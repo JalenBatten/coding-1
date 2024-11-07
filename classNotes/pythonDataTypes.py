@@ -28,3 +28,20 @@ posts=[]
 {}
 []
 ()
+
+# Python Operators
+
+# arithmmatic 
+# addition, subtraction, multiplication, and division
+
+# assignment
+# giving things values/ assigning values
+
+# Comparison
+# Are these the same or are these different
+
+# Logical 
+# 2 factor comparison
+
+# A variable name must start with a letter or an underscore.
+# A variable name should be short, simple, yet descriptive.

@@ -26,3 +26,34 @@ name= 'My name is Jalen.'
 activity= 'I am going to an arcade.'
 time='I will do this at 2:00pm.'
 print(name, activity, time)
+
+# Python Operators
+
+# arithmmatic 
+# addition, subtraction, multiplication, and division
+
+# assignment
+# giving things values/ assigning values
+
+# Comparison
+# Are these the same or are these different
+
+# Logical 
+# 2 factor comparison
+
+# A variable name must start with a letter or an underscore.
+# A variable name should be short, simple, yet descriptive.
+
+
+# Cases
+
+# camel case 
+# every word starts with a captital letter except the first letter
+
+x = 20 # we are assigning the value of 20 to the variable x
+x = x+3
+
+# single equal sign (=) the equal sign in python has nothing to do with 
+# we are assigning a variable of getting a result.
+# double equal sign(==) is used for comparisons
+
