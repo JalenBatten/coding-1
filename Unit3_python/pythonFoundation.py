@@ -54,6 +54,6 @@ x = 20 # we are assigning the value of 20 to the variable x
 x = x+3
 
 # single equal sign (=) the equal sign in python has nothing to do with 
-# we are assigning a variable of getting a result.
+# we are assigning a variable instead of getting a result.
 # double equal sign(==) is used for comparisons
 
