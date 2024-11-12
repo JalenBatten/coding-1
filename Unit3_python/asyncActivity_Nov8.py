@@ -10,8 +10,10 @@ rulesOfVariables= rule1 + rule2 + rule3
 print(rulesOfVariables)
 
 camelCaseExample= 'In camel case every word starts with a captital letter, except the first letter.' 
-PascalCaseExample= 'In pascal case every word starts with a captial letter, including the first letter'
-snake_case_example='To separate words in snake case underscores are used.'
+PascalCaseExample= ' In pascal case every word starts with a captial letter, including the first letter'
+snake_case_example=' To separate words in snake case underscores are used.'
+CaseExamples=camelCaseExample + PascalCaseExample + snake_case_example
+print(CaseExamples)
  
 a=3
 b=a*100
