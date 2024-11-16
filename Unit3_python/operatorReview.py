@@ -20,8 +20,7 @@ print(totalAtCheckout)
 
 
 # Comparison operator- is analyzing two values to determine a outcome.
-# == this means they are the same or equal 
-# != this means they are not equal
+# == this means they   are not equal
 
 
 wendysReviewScore = 4.0
