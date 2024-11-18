@@ -1,19 +1,24 @@
 # 1. You would use the logical operator
+name= "Jalen"
+password= "1030"
+correctName="Jalen" 
+correctPassword="1030"
+print(name == correctName and password == correctPassword)
 
-correctName= True
-correctPassword= True
-print(correctName and correctPassword)
+# 2. The logical operator would be used for this situation.
+ecgRequest= 10
+ecgShipment= 4
+print(ecgRequest > ecgShipment)
 
-# 2. The arithmetic operator would be used for this situation.
-ECG_machines_request=10-4
-not_needed_oxygen_tanks=9-6
-print(ECG_machines_request, not_needed_oxygen_tanks)
+oxygenRequest= 6
+oxygenShipment= 9
+print (oxygenRequest < oxygenShipment)
 
-# 3. The logical operator would be used.
+# 3. The assignment operator would be used.
 
-userData= True
-selectedUser= True
-print(userData and selectedUser)
+userData= "Hello"
+userDataReciever="Jack"
+
 
 #4.
 
