@@ -1,0 +1,35 @@
+# What is a function? 
+# A set of instructions that perform a specific task or job.
+
+# there are two variants of functions in python
+# Built-in functions- instructions that are pre-written in the python programming language.
+#example
+# print() is a built-in function. When we pass data it will output 
+# it into the terminal automatically
+print("Coding Class")
+
+# input() is a built-in function. It allows us to write and pass 
+# in data into our program from the terminal.
+name = input("What is your name?")
+print(name)
+
+number= int ( input("please provide a number"))
+print(23*number)
+
+# User Defined Functions- custom functions written by engineers.
+
+# Function Syntax- how it is written.
+
+def sandwichInstructions():
+    print('get 2 pieces of bried')
+    print('putting ingredients inside of bread')
+    print('step 3. put bread with ingredients together.')
+
+# The "def" keyword is used to tell the computer we are creating a function.
+
+# there are two states of a user defined function;
+        # the function definition
+        # the function call
+
+# this is a function call
+    sandwichInstructions()
