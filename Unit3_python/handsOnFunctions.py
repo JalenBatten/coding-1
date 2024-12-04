@@ -34,3 +34,28 @@ def verifyAge(age):
 
 verifyAge(18)
 
+
+def minuteConverter(hours): 
+    print(hours*60," minutes")
+
+ 
+minuteConverter(100)
+
+# Conditional Statements
+
+# food expiration software is an example of
+# using conditional statements. If the food expires
+# it needs to be thrown away, or else it can be eaten
+
+def foodExpiration(month, date, year):
+    expirationYear= 2026
+    expirationMonth= 12
+    expirationDate = 5
+    if date > expirationDate and year > expirationYear and month > expirationMonth:
+        print('throw food away')
+    else: 
+        print('food is still good')
+    
+foodExpiration(12,10,2027)
+
+
