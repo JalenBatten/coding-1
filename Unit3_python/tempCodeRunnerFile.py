@@ -1,0 +1,1 @@
+numberTypeDetector(-1)

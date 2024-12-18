@@ -7,9 +7,9 @@ def numberTypeDetector(number):
        print('This is zero.')
     
     
-numberTypeDetector(-1)
-numberTypeDetector(1)
-numberTypeDetector(0)
+# numberTypeDetector(-1)
+# numberTypeDetector(1)
+# numberTypeDetector(0)
 
 
 def ticketCostToAge(age):
@@ -19,24 +19,32 @@ def ticketCostToAge(age):
       print('Ticket costs $10.')
 
     
-ticketCostToAge(10)
-ticketCostToAge(16)
-ticketCostToAge(65)
+# ticketCostToAge(10)
+# ticketCostToAge(16)
+# ticketCostToAge(65)
 
 
-def memberShipDiscount(discount, price, item):
-   if discount == 'superShopper':
-      print(item,'is', 0.9*price)
-   elif discount == 'megaShopper':
-      print(item,'is', 0.85*price)
-   elif discount == 'ultraShopper':
-      print(item,'is', 0.8*price)
+def memberPrice(membership, price):
+   print('function working')
+   if membership == 'superShopper':
+      discount= 0.1*price
+      total = price- discount
+      print(discount)
+   elif membership == 'megaShopper':
+      discount= 0.15*price
+      print(discount)
+   elif membership == 'ultraShopper':
+      discount= 0.2*price
+      print(discount)
+      total = price- discount
+      print(total)
    else:
       print('Discount is invalid.')
-  
+
+memberPrice('ultraShopper', 143);
   
 
 
-memberShipDiscount('superShopper', 10, 'Vacuum')
-memberShipDiscount('megaShopper', 1600, 'Tv')
-memberShipDiscount('ultraShopper', 100, 'Gift Card' )
+# memberShipDiscount('superShopper', 10, 'Vacuum')
+# memberShipDiscount('megaShopper', 1600, 'Tv')
+# memberShipDiscount('ultraShopper', 100, 'Gift Card' )
