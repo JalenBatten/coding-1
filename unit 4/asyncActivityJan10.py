@@ -1,8 +1,8 @@
-frozenFoodAisle=['sausage, pizza, wafles, cheesesteak, ice cream']
+frozenFoodAisle=['sausage', 'pizza', 'wafles', 'cheesesteak', 'ice cream']
 
-internationalFoodAisle=['sushi, curry, pasta, churros, tortillas']
+internationalFoodAisle=['sushi', 'curry', 'pasta', 'churros', 'tortillas']
 
-produceFoodAisle=['Apples, Bananas, Oranges, Lemons, Potatoes']
+produceFoodAisle=['Apples', 'Bananas', 'Oranges', 'Lemons', 'Potatoes']
 
 numbers = [1,30,39,50,293,100]
 
