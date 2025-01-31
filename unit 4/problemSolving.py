@@ -40,13 +40,20 @@
 def rock_paper_scissors_loop():
     userHand= input("Which hand would you like to choose?")
     hands=["Rock","Scissors", "Paper"]
+    hp = 2
+    cpuHp=2
     import random
-    while userHand == "Rock" or "Scissors" or "Paper":
-        random.choice(hands)
-        if hands == "Rock" and userHand == "Scissors":
-            print("You have lost this round. Computer chose rock.")
-        if hands == "Scissors" and userHand == "Paper":
-            print
+    while userHand == "rock" or "scissors" or "paper":
+         
+         random.choice(hands)
+         if hands == "Rock" and userHand == "scissors":
+            print("You have lost this round. Computer chose", hands)
+         
+            
+        
+        
+rock_paper_scissors_loop()
+            
 
         
     
