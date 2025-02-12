@@ -21,7 +21,7 @@ def passwordLoops():
         if userPw == correctPw:
            print('Congrats')
 
-passwordLoops()
+#passwordLoops()
 
 
 def inventoryLoop():
@@ -32,11 +32,12 @@ def inventoryLoop():
         print('these are the items in your bag')
         print(userInventory)
         pickupItem=input('Pick up item')
-    if len(userInventory) == 4:
-        print('Max Inventory Storage')
+        if len(userInventory) == 4:
+            print('Max Inventory Storage')
+            break
 
         
-#inventoryLoop()
+inventoryLoop()
 
 
 
